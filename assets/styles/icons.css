@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'remixicon';
+  src: url('../icons/remixicon.eot?t=1608181863511'); /* IE9*/
+  src: url('../icons/remixicon.eot?t=1608181863511#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../icons/remixicon.woff2?t=1608181863511')
+      format('woff2'),
+    url('../icons/remixicon.woff?t=1608181863511') format('woff'),
+    url('../icons/remixicon.ttf?t=1608181863511') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      url('../icons/remixicon.svg?t=1608181863511#remixicon') format('svg'); /* iOS 4.1- */
+  font-display: swap;
+}
+
+[class^='icon-'],
+[class*='icon-'] {
+  font-family: 'remixicon' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+  font-size: 1.3333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+.icon-xl {
+  font-size: 1.5em;
+  line-height: 0.6666em;
+  vertical-align: -0.075em;
+}
+.icon-xxs {
+  font-size: 0.5em;
+}
+.icon-xs {
+  font-size: 0.75em;
+}
+.icon-sm {
+  font-size: 0.875em;
+}
+.icon-1x {
+  font-size: 1em;
+}
+.icon-2x {
+  font-size: 2em;
+}
+.icon-3x {
+  font-size: 3em;
+}
+.icon-4x {
+  font-size: 4em;
+}
+.icon-5x {
+  font-size: 5em;
+}
+.icon-6x {
+  font-size: 6em;
+}
+.icon-7x {
+  font-size: 7em;
+}
+.icon-8x {
+  font-size: 8em;
+}
+.icon-9x {
+  font-size: 9em;
+}
+.icon-10x {
+  font-size: 10em;
+}
+.icon-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.icon-menu-fill:before {
+  content: '\ef3b';
+}
+.icon-video-fill:before {
+  content: '\f281';
+}
+.icon-video-line:before {
+  content: '\f282';
+}
+.icon-surround-sound-line:before {
+  content: '\f1c5';
+}
+.icon-surround-sound-fill:before {
+  content: '\f1c4';
+}
+.icon-image-line:before {
+  content: '\ee4b';
+}
+.icon-image-fill:before {
+  content: '\ee4a';
+}
+.icon-link:before {
+  content: '\eeb2';
+}
+.icon-home-4-fill:before {
+  content: '\ee1c';
+}
+.icon-home-4-line:before {
+  content: '\ee1d';
+}
+.icon-instagram-fill:before {
+  content: '\ee65';
+}
+.icon-instagram-line:before {
+  content: '\ee66';
+}
+.icon-telegram-line:before {
+  content: '\f1f0';
+}
+.icon-telegram-fill:before {
+  content: '\f1ef';
+}
+.icon-whatsapp-line:before {
+  content: '\f2bc';
+}
+.icon-whatsapp-fill:before {
+  content: '\f2bb';
+}
+.icon-twitter-fill:before {
+  content: '\f23a';
+}
+.icon-time-line:before {
+  content: '\f20f';
+}
+.icon-time-fill:before {
+  content: '\f20e';
+}
+.icon-chat-1-line:before {
+  content: '\eb4d';
+}
+.icon-chat-1-fill:before {
+  content: '\eb4c';
+}
+.icon-message-3-line:before {
+  content: '\ef46';
+}
+.icon-message-3-fill:before {
+  content: '\ef45';
+}
+.icon-node-tree:before {
+  content: '\ef90';
+}
+.icon-profile-line:before {
+  content: '\f02d';
+}
+.icon-profile-fill:before {
+  content: '\f02c';
+}
+.icon-login-circle-fill:before {
+  content: '\eed5';
+}
+.icon-logout-circle-line:before {
+  content: '\eedc';
+}
+.icon-logout-circle-fill:before {
+  content: '\eedb';
+}
+.icon-dashboard-line:before {
+  content: '\ec14';
+}
+.icon-dashboard-fill:before {
+  content: '\ec13';
+}
+.icon-gallery-line:before {
+  content: '\eda5';
+}
+.icon-gallery-fill:before {
+  content: '\eda4';
+}
+.icon-facebook-circle-line:before {
+  content: '\ecbb';
+}
+.icon-facebook-circle-fill:before {
+  content: '\ecba';
+}
+.icon-twitter-line:before {
+  content: '\f23b';
+}
+.icon-linkedin-line:before {
+  content: '\eeb6';
+}
+.icon-linkedin-fill:before {
+  content: '\eeb5';
+}
+.icon-search-line:before {
+  content: '\f0d1';
+}
+.icon-search-fill:before {
+  content: '\f0d0';
+}
+.icon-mail-line:before {
+  content: '\eef6';
+}
+.icon-mail-fill:before {
+  content: '\eef3';
+}
+.icon-notification-line:before {
+  content: '\ef9a';
+}
+.icon-notification-fill:before {
+  content: '\ef99';
+}
+.icon-user-6-line:before {
+  content: '\f25c';
+}
+.icon-user-6-fill:before {
+  content: '\f25b';
+}
+.icon-map-pin-line:before {
+  content: '\ef14';
+}
+.icon-map-pin-fill:before {
+  content: '\ef13';
+}
+.icon-hand-heart-line:before {
+  content: '\edf3';
+}
+.icon-hand-heart-fill:before {
+  content: '\edf2';
+}
+.icon-question-line:before {
+  content: '\f045';
+}
+.icon-question-fill:before {
+  content: '\f044';
+}
+.icon-delete-bin-2-line:before {
+  content: '\ec1e';
+}
+.icon-delete-bin-2-fill:before {
+  content: '\ec1d';
+}
+.icon-edit-line:before {
+  content: '\ec86';
+}
+.icon-edit-fill:before {
+  content: '\ec85';
+}
+.icon-user-add-line:before {
+  content: '\f25e';
+}
+.icon-user-add-fill:before {
+  content: '\f25d';
+}
+.icon-gift-2-line:before {
+  content: '\edb9';
+}
+.icon-gift-2-fill:before {
+  content: '\edb8';
+}
+.icon-user-heart-line:before {
+  content: '\f263';
+}
+.icon-user-heart-fill:before {
+  content: '\f262';
+}
+.icon-empathize-line:before {
+  content: '\ec98';
+}
+.icon-empathize-fill:before {
+  content: '\ec97';
+}
+.icon-hearts-line:before {
+  content: '\ee13';
+}
+.icon-hearts-fill:before {
+  content: '\ee12';
+}
+.icon-pulse-line:before {
+  content: '\f035';
+}
+.icon-pulse-fill:before {
+  content: '\f034';
+}
+.icon-heart-line:before {
+  content: '\ee0f';
+}
+.icon-heart-fill:before {
+  content: '\ee0e';
+}
+.icon-service-fill:before {
+  content: '\f0e1';
+}
+.icon-service-line:before {
+  content: '\f0e2';
+}
+.icon-home-heart-line:before {
+  content: '\ee2a';
+}
+.icon-home-heart-fill:before {
+  content: '\ee29';
+}
+.icon-arrow-up-s-line:before {
+  content: '\ea78';
+}
+.icon-arrow-down-s-line:before {
+  content: '\ea4e';
+}
+.icon-arrow-right-s-line:before {
+  content: '\ea6e';
+}
+.icon-arrow-left-s-line:before {
+  content: '\ea64';
+}
+.icon-group-2-line:before {
+  content: '\ede1';
+}
+.icon-group-2-fill:before {
+  content: '\ede0';
+}
+.icon-team-line:before {
+  content: '\f1ee';
+}
+.icon-team-fill:before {
+  content: '\f1ed';
+}
+.icon-building-line:before {
+  content: '\eb0f';
+}
+.icon-building-fill:before {
+  content: '\eb0e';
+}
+.icon-bank-card-line:before {
+  content: '\ea92';
+}
+.icon-bank-card-fill:before {
+  content: '\ea91';
+}
+.icon-volume-down-fill:before {
+  content: '\f29b';
+}
+.icon-volume-down-line:before {
+  content: '\f29c';
+}
